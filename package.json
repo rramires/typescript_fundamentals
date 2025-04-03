@@ -1,0 +1,25 @@
+{
+  "name": "typescript_fundamentals",
+  "version": "1.0.0",
+  "description": "Beginning of TypeScript studies",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/hello_world.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rramires/typescript_fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rramires/typescript_fundamentals/issues"
+  },
+  "homepage": "https://github.com/rramires/typescript_fundamentals#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
