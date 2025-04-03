@@ -1,4 +1,5 @@
-// run with: node ./src/02_primitive_types.ts  
+// run with: 
+// ts-node ./src/02_primitive_types.ts  
 
 // If I declare without typing
 // let firstname; 

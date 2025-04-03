@@ -52,7 +52,14 @@ npm install tsx -D
 npm run dev 
 ```
 
-Modify and save **hello_world.ts** and see the changes in the terminal.
+#### Modify and save **hello_world.ts** and see the changes in the terminal.
 ```sh
 Hello World 123 !!!
+```
+
+#### Install global TS-Node, for running single files
+```sh
+npm install -g ts-node 
+
+ts-node ./src/00_hello_world.ts  
 ```

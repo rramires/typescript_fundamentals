@@ -1,4 +1,5 @@
-// run with: node ./src/01_error_indication.ts  
+// run with: 
+// ts-node ./src/01_error_indication.ts  
 
 const message = "Hello TypeScript!";
 
