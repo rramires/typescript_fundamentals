@@ -2,9 +2,9 @@
   "name": "typescript_fundamentals",
   "version": "1.0.0",
   "description": "Beginning of TypeScript studies",
-  "main": "index.js",
+  "main": "./src/00_hello_world.js",
   "scripts": {
-    "dev": "tsx watch src/hello_world.ts"
+    "dev": "tsx watch src/00_hello_world.ts"
   },
   "repository": {
     "type": "git",
