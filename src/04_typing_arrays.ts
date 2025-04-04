@@ -25,6 +25,13 @@ products.push("Video Card");
 console.log(products);
 console.log(products[1]);
 
+
+let multiTypes: Array<string | number> = Array();
+multiTypes[0] = "Notebook";
+multiTypes[1] = 15; 
+// multiTypes[3] = true; // Type 'boolean' is not assignable to type 'string | number'.
+console.log(multiTypes);
+
 // It has all the other methods, the same as the Javascript array.
 // Eg: concat(), unshift(), pop(), etc: 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
