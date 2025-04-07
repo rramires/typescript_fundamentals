@@ -1,5 +1,5 @@
 // run with: 
-// ts-node ./src/171_using_partial.ts
+// ts-node ./src/17_using_partial.ts
 
 // In this interface all properties are required
 interface User {
