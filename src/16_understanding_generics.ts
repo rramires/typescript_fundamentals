@@ -1,7 +1,7 @@
 // run with: 
 // ts-node ./src/16_understanding_generics.ts
 
-// Example of a generic function
+// Example of a regular function
 
 function useState(){
     let state: number | string;
@@ -23,7 +23,12 @@ console.log(newState.get()); // Hello
 
 // Generics allow you to create reusable components that work with any data type.
 
-function useState2<T extends number | string = string>() {
+// Sintaxe
+// function myFn<T extends type1 | type2 | type2 = typeDefault>>() {  }
+// type1 | type2 | type2 define the types that the generic can accept
+// typeDefault defines the default type that will be used if no type is provided
+
+function useState2<T extends number | string = string>(){
     // T is a generic type that can be either number or string
     let state: T;
 
