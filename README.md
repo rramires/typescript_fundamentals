@@ -61,5 +61,5 @@ Hello World 123 !!!
 ```sh
 npm install -g ts-node 
 
-ts-node ./src/00_hello_world.ts  
+ts-node ./src/hello_world.ts  
 ```
